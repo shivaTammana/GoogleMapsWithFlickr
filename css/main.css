@@ -1,0 +1,31 @@
+body{
+	margin: 0px;	
+}
+#logoDiv {
+	position: absolute;	
+	z-index: 2;
+	float: left;
+}
+#searchDiv {
+	text-align: center;
+	top:90%;	
+	position: absolute;	
+	z-index: 2;
+	float: left;
+	width: 100%;
+}
+#innerSearchDiv {	
+	width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#googleMap {
+	position: absolute;
+	z-index: 1;
+	width:100%;
+	height:100%;
+}
+#result{
+	color:red;
+}
